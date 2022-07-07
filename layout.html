@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>有間早午餐 - 後台管理</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+  <div class="d-flex">
+    <aside class="sidebar vh-100 border-end bg-white d-flex flex-column pt-3">
+      <!-- 1. 後台名稱 -->
+      <h1 class="fs-5 px-4 mb-3">
+        <strong>有間早午餐</strong>
+        - 後台管理
+      </h1>
+      <!-- 2. 選單 -->
+      <ul class="list-unstyled overflow-auto mb-0">
+        <li>
+          <a href="home.html" class="sidebar-link px-4">
+            <i class="bi bi-house me-2"></i>首頁
+          </a>
+        </li>
+        <li>
+          <a href="#menu-order" class="sidebar-link d-flex justify-content-between px-4" data-bs-toggle="collapse">
+            <p class="mb-0">
+              <i class="bi bi-card-checklist me-2"></i>訂單管理
+            </p>
+            <i class="bi bi-caret-down"></i>
+          </a>
+          <div class="collapse" id="menu-order">
+            <a href="orders.html" class="sidebar-link ps-5">
+              訂單列表
+            </a>
+            <a href="order.html" class="sidebar-link ps-5">
+              單一訂單細節
+            </a>            
+          </div>
+        </li>
+        <li>
+          <a href="#" class="sidebar-link px-4">
+            <i class="bi bi-list-stars me-2"></i>參考連結
+          </a>
+        </li>
+      </ul>
+      <!-- 3. 登出按鈕 -->
+      <a href="#" class="mt-auto sidebar-link px-4">
+        <i class="bi bi-box-arrow-in-right me-2"></i>登出
+      </a>
+    </aside>
+
+    <main class="main">
+      <div class="bg-white w-100 border-bottom sticky-top">
+        <a href="#" class="d-inline-block py-3 px-4 border-end" id="toggle-btn">
+          <i class="bi bi-arrows-angle-expand"></i>
+        </a>
+      </div>
+
+      <div>
+        <!-- 主要內容 -->
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      </div>
+    </main>
+  </div>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <script src="./javascripts/all.js"></script>
+</body>
+</html>
